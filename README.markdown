@@ -22,7 +22,7 @@ The dataset is typically provided as a ZIP file (`Pneumonia Detection Dataset.zi
 The project is implemented in a Jupyter Notebook (`Pneumonia_Detection_using_Deep_Learning.ipynb`) and follows these key steps:
 
 1. **Data Preparation**:
-   - Extract the dataset from a ZIP file.
+   - Extract the dataset from a [ZIP file](https://drive.google.com/file/d/1x1-iwcKyorg93Vg2SbX9Jn5I-8unJI5Q/view?usp=drive_link).
    - Set up paths for training and test directories.
    - Apply data augmentation to the training set to increase model robustness.
 
@@ -61,8 +61,8 @@ pip install tensorflow keras scipy glob2
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/gagannchandra/Pneumonia-Detection-using-Deep-Learning.git
+   cd Pneumonia-Detection-using-Deep-Learning
    ```
 
 2. **Install Dependencies**:
