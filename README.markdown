@@ -74,7 +74,7 @@ pip install tensorflow keras scipy glob2
    ```bash
    pip install tensorflow keras scipy glob2 matplotlib numpy
    ```
-  _ Note : if pip install failed beacuse of external or something..._
+  *Note : if pip install failed beacuse of external or something... *
    Use this
    ```bash
    python3 -m venv venv
