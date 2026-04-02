@@ -74,20 +74,21 @@ pip install tensorflow keras scipy glob2
    ```bash
    pip install tensorflow keras scipy glob2 matplotlib numpy
    ```
-  *Note : if pip install failed beacuse of external or something... *
-   Use this
+   *Note : if pip install failed beacuse of external or something...*
+   USE THIS
+   
    ```bash
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
-```
+   ```
    
 
-3. **Download the Dataset**:
+4. **Download the Dataset**:
    - Download the Chest X-Ray Images (Pneumonia) dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
    - Place the ZIP file (`Pneumonia Detection Dataset.zip`) in the project directory or update the `zip_path` variable in the notebook to point to the correct location.
 
-4. **Run the Notebook**:
+5. **Run the Notebook**:
    - Open the Jupyter Notebook (`Pneumonia_Detection_using_Deep_Learning.ipynb`) in a Jupyter environment (e.g., Google Colab, JupyterLab, or VS Code).
    - Execute the cells sequentially to extract the dataset, train the model, and test predictions.
 
