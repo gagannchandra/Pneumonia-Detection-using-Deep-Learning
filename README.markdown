@@ -74,6 +74,14 @@ pip install tensorflow keras scipy glob2
    ```bash
    pip install tensorflow keras scipy glob2 matplotlib numpy
    ```
+  _ Note : if pip install failed beacuse of external or something..._
+   Use this
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+```
+   
 
 3. **Download the Dataset**:
    - Download the Chest X-Ray Images (Pneumonia) dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
